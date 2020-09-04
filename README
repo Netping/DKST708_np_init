@@ -1,0 +1,4 @@
+The script determines the file system of the user partition and, if it does not match the specified one, formats the partition.
+Then the script checks the default directory structure of the user section, and, if it does not match the given structure, it creates it.
+How to run:
+yes Yes | /path/to/script/np_init.sh
